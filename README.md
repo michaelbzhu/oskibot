@@ -4,19 +4,27 @@
 
 ## How to Deploy on the Web using Microsoft Azure
 
-1. Create a Bot account at ['Webex for Developers'](https://developer.webex.com/add-bot.html), and copy your bot's access token to the clipboard. Set the ACCESS_TOKEN in the .env file to your bot's access token
+1. From a Mac/Linux bash shell:
 
-2. Set up a Azure Account and download Visual Studio Code
+    ```shell
+    git clone https://github.com/mbzhu1/oskibot
+    cd oskibot
+    npm install
+    ```
 
-3. Install the Azure App Service Extension in VS Code
+2. Create a Bot account at ['Webex for Developers'](https://developer.webex.com/add-bot.html), and copy your bot's access token to the clipboard. Set the ACCESS_TOKEN in the .env file to your bot's access token
 
-4. Follow the instructions at https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-nodejs#deploy-to-azure to deploy your app to azure.
+3. Set up a Azure Account and download Visual Studio Code
 
-5. If you browse the URL given by Azure, you may find that there is an error page. Don't panic, this is expected. After recieving a URL from Azure, replace the PUBLIC_URL in the .env file with your web app's URL. Save the changes and redeploy your chatbot.
+4. Install the Azure App Service Extension in VS Code
 
-6. The URL given to you by Azure should now display a JSON file with the health status report about the chatbot. If you are on Chrome, you can download [JSON VIEWER](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) to view the file in a more readable format
+5. Follow the instructions at https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-nodejs#deploy-to-azure to deploy your app to azure.
 
-7. Now you have your bot deployed onto the web and you can start talking with your bot in Cisco Webex Teams!
+6. If you browse the URL given by Azure, you may find that there is an error page. Don't panic, this is expected. After recieving a URL from Azure, replace the PUBLIC_URL in the .env file with your web app's URL. Save the changes and redeploy your chatbot.
+
+7. The URL given to you by Azure should now display a JSON file with the health status report about the chatbot. If you are on Chrome, you can download [JSON VIEWER](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) to view the file in a more readable format
+
+8. Now you have your bot deployed onto the web and you can start talking with your bot in Cisco Webex Teams!
 
 ## How to run locally
 
