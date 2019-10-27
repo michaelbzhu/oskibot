@@ -1,14 +1,6 @@
 # OskiBot - An all-purpose chatbot for UC Berkeley students
 **Inspired by Oski, the best collegiate mascot in America**
 
-## Features
-OskiBot can currently give you course reccomendations, set Google Calendar reminders, and show online lecture videos
-
-If you ask OskiBot to recommend courses, he will help you filter courses based on graduation requirments
-
-If you ask OskiBot to set a reminder, he we direct you to https://midterm-reminders-s8d1h.transposit.io which uses Transposit to connect to the Google Calendar API
-
-If you ask OskiBot to show you online lectures, he will direct you to https://mbzhu1.github.io/cs61a-eluvio-trial/ which is currently using the Eluvio API to deliver video content via blockchain technology.
 
 ## How to Deploy on the Web using Microsoft Azure
 
@@ -52,6 +44,16 @@ And keep this running in the background
 5. Now you have your bot running!
 
 6. Go to the Cisco Webex Teams application, search up your chat bot using the Bot's username, and start chatting!
+
+
+## Features
+OskiBot can currently give you course reccomendations, set Google Calendar reminders, and show online lecture videos
+
+If you ask OskiBot to recommend courses, he will help you filter courses based on graduation requirments
+
+If you ask OskiBot to set a reminder, he we direct you to https://midterm-reminders-s8d1h.transposit.io which uses Transposit to connect to the Google Calendar API
+
+If you ask OskiBot to show you online lectures, he will direct you to https://mbzhu1.github.io/cs61a-eluvio-trial/ which is currently using the Eluvio API to deliver video content via blockchain technology.
 
 
 <img src="./media/oski_recc_demo.jpg" width="500" height="1200">
