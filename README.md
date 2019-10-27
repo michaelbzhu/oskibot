@@ -1,7 +1,7 @@
-# OskiBot - A course recommender for UC Berkeley students
+# OskiBot - An all-purpose chatbot for UC Berkeley students
 **Inspired by Oski, the best collegiate mascot in America**
 
-Oski can give you recomendations based on what requirements you still need to fulfill
+OskiBot can currently give you course reccomendations, set Google Calendar reminders, and show online lecture videos
 
 ## How to run
 
