@@ -3,9 +3,6 @@
 
 Oski can give you recomendations based on what requirements you still need to fulfill
 
-<img src="./media/oski_recc_demo.jpg" width="500" height="1000">
-![image of oski demo](./media/oski_recc_demo.jpg) <!-- .element height="50%" width="50%" -->
-
 ## How to run
 
 1. From a Mac/Linux bash shell:
@@ -31,4 +28,6 @@ And keep this running in the background
     ```
 5. Now you have your bot running!
 
+
+<img src="./media/oski_recc_demo.jpg" width="500" height="1200">
 
