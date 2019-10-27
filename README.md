@@ -13,9 +13,11 @@ OskiBot can currently give you course reccomendations, set Google Calendar remin
 
 4. Follow the instructions at https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-nodejs#deploy-to-azure to deploy your app to azure.
 
-5. After recieving a URL from Azure, replace the PUBLIC_URL in the .env file with your web app's URL
+5. If you browse the URL given by Azure, you may find that there is an error page. Don't panic, this is expected. After recieving a URL from Azure, replace the PUBLIC_URL in the .env file with your web app's URL. Save the changes and redeploy your chatbot.
 
-6. Now you have your bot deployed onto the web and you can start talking with your bot in Cisco Webex Teams!
+6. The URL given to you by Azure should now display a JSON file with the health status report about the chatbot. If you are on Chrome, you can download [JSON VIEWER](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) to view the file in a more readable format
+
+7. Now you have your bot deployed onto the web and you can start talking with your bot in Cisco Webex Teams!
 
 ## How to run locally
 
@@ -41,6 +43,8 @@ And keep this running in the background
     ACCESS_TOKEN={your bots access token} node bot.js
     ```
 5. Now you have your bot running!
+
+6. Go to the Cisco Webex Teams application, search up your chat bot using the Bot's username, and start chatting!
 
 
 <img src="./media/oski_recc_demo.jpg" width="500" height="1200">
