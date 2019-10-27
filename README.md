@@ -1,5 +1,5 @@
 # OskiBot - A course recommender for UC Berkeley students
-** Inspired by Oski, the best collegiate mascot in America **
+**Inspired by Oski, the best collegiate mascot in America**
 
 Oski can give you recomendations based on what requirements you still need to fulfill
 
