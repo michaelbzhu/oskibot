@@ -3,7 +3,7 @@
 
 Oski can give you recomendations based on what requirements you still need to fulfill
 
-<img src="./media/oski_recc_demo.jpg" width="1000" height="2000">
+<img src="./media/oski_recc_demo.jpg" width="500" height="1000">
 ![image of oski demo](./media/oski_recc_demo.jpg) <!-- .element height="50%" width="50%" -->
 
 ## How to run
