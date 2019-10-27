@@ -1,5 +1,5 @@
 # OskiBot - A course recommender for UC Berkeley students
-## Inspired by Oski, the best collegiate mascot in America
+** Inspired by Oski, the best collegiate mascot in America **
 
 Oski can give you recomendations based on what requirements you still need to fulfill
 
@@ -13,9 +13,8 @@ Oski can give you recomendations based on what requirements you still need to fu
     npm install
     ```
 
-2. Unzip and launch ngrok to expose port 3000 of your local machine to the internet:
+2. Launch ngrok to expose port 3000 of your local machine to the internet:
     ```shell
-    unzip /path/to/ngrok.zip
     ./ngrok http 3000
     ```
 And keep this running in the background
