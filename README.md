@@ -3,7 +3,7 @@
 
 Oski can give you recomendations based on what requirements you still need to fulfill
 
-![image of oski demo](./media/oski_recc_demo.jpg | width=2000)
+![image of oski demo](./media/oski_recc_demo.jpg){:height="50px" width="100px"}
 
 ## How to run
 
