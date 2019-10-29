@@ -16,4 +16,8 @@ module.exports = function (controller) {
         var text = "Joe Mama";
         bot.reply(message, text);
     });
+    controller.hears(["John"], 'direct_message,direct_mention', function (bot, message) {
+        var text = "John says oööoh füuüuckkkk";
+        bot.reply(message, text);
+    });
 }
