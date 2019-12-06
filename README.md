@@ -1,6 +1,7 @@
 # OskiBot - An all-purpose chatbot for UC Berkeley students
 **Inspired by Oski, the best collegiate mascot in America**
-
+**Created at CalHacks 6.0, won the Cisco API Challenge and Transposit API Challenge**
+**Devpost Project Link: https://devpost.com/software/oskibot-uc-berkeley-course-recommendation-chatbot**
 
 ## How to Deploy on the Web using Microsoft Azure
 
