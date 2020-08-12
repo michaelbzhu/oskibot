@@ -20,4 +20,8 @@ module.exports = function (controller) {
         var text = "John says oööoh füuüuckkkk";
         bot.reply(message, text);
     });
+    controller.hears(["Doge"], 'direct_message,direct_mention', function (bot, message) {
+        var text = "Wow such bot";
+        bot.reply(message, text);
+    });
 }
