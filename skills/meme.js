@@ -24,4 +24,14 @@ module.exports = function (controller) {
         var text = "Wow such bot";
         bot.reply(message, text);
     });
+    controller.hears(["Sugondese"], 'direct_message,direct_mention', function (bot, message) {
+        var text = "Sugondese Nuts";
+        bot.reply(message, text);
+    });
+    controller.hears(["Candice"], 'direct_message,direct_mention', function (bot, message) {
+        var text = "Candice Dick fit in yo mouth";
+        bot.reply(message, text);
+    });
+
+
 }
